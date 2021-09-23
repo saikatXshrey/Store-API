@@ -8,7 +8,14 @@ Insert gif or link to demo
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://user-images.githubusercontent.com/76695320/134512456-53d2cf76-ddf6-4110-b05e-6a15f03fcb23.png)
+
+![image](https://user-images.githubusercontent.com/76695320/134516755-0ef17c78-4597-4689-b255-16e5571813e2.png)
+
+![image](https://user-images.githubusercontent.com/76695320/134517103-6f048889-5a38-4921-869a-9be338355daa.png)
+
+![image](https://user-images.githubusercontent.com/76695320/134517481-e25ae0e0-9dc4-4568-a407-9de07c5c5169.png)
+
 
 ## Environment Variables
 
