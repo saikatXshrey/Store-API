@@ -1,7 +1,7 @@
 {
-  "name": "jobs",
+  "name": "store-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Api made for furniture store with Node.js,Express.js,MongoDB,Mongoose",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
