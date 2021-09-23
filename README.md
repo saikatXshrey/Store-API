@@ -4,7 +4,8 @@ Api made for furniture store with Node.js,Express.js,MongoDB & Mongoose
 
 ## Demo
 
-Insert gif or link to demo
+https://user-images.githubusercontent.com/76695320/134520175-8c18c5e8-4106-4dec-b49e-4f28185cb7f4.mp4
+
 
 ## Screenshots
 
