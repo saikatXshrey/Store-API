@@ -18,6 +18,78 @@ https://user-images.githubusercontent.com/76695320/134520175-8c18c5e8-4106-4dec-
 ![image](https://user-images.githubusercontent.com/76695320/134517481-e25ae0e0-9dc4-4568-a407-9de07c5c5169.png)
 
 
+
+## API Reference
+
+#### Get all products
+
+```http
+  GET /api/v1/products
+```
+
+#### Get all products (based on filtering)
+
+```http
+  GET /api/v1/products?query=.......
+```
+#### Query
+
+#### 1) name
+
+| Query | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `name`      | `string` |  fetch similar pattern name|
+
+#### 2) featured
+
+| Query | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `featured`      | `boolean` |  fetch featured/non-featured products|
+
+#### 3) company
+
+| Query | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `company`      | `string` |  fetch products from company-list(ikea/caressa/liddy/marcos)|
+
+#### 4) sort
+
+| Query | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `sort`      | `string` |  sort products on any basis (eg: name -> ascending order / -name -> descending oder)|
+
+#### 5) fields
+
+| Query | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `fields`      | `string` |  fetch selected fields of products (eg : name,price)|
+
+#### 6) limit
+
+| Query | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `limit`      | `integer` |  limit the fetch quantity of products|
+
+#### 7) page
+
+| Query | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `page`      | `integer` |  fetch according to page|
+
+#### 8) numericFilters
+
+| Query | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `numericFilters`      | `conditions` |  fetch according to conditions (>,>=,=,<,<=) [eg: price>=40,rating>4.5]|
+
+
+#### Get all products - testing
+
+```http
+  GET /api/v1/products/static
+```
+
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
